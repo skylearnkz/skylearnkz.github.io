@@ -43,20 +43,23 @@
                                             <div class="modal-header">
                                                 <h5 class="modal-title display-6 fw-bold text-center" id="exampleModalLabel" style="margin:0 auto;">Оставьте заявку <i class="bi bi-check2-circle"></i></h5>
                                             </div>
-                                            <form action="">
+                                            <form target="_blank" action="https://forms.amocrm.ru/queue/add" method="POST">
                                                 <div class="modal-body" style="padding-left:35px;padding-right:35px;">
                                                     <div class="form-floating mb-3">
-                                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                                                        <input name="fields[name_1]" class="form-control" id="name" type="text" placeholder="Enter your name..." required />
                                                         <label for="name">Ваше имя</label>
                                                     </div>
-                                                    <!-- Phone number input-->
                                                     <div class="form-floating mb-3">
-                                                        <input class="form-control" id="phone" type="tel" placeholder="+7 (999) 999-9999" required />
+                                                        <input name="fields[1084909_1][1320251]" class="form-control" id="phone" type="tel" placeholder="+7 (999) 999-9999" required />
                                                         <label for="phone">+7 (999) 999-9999</label>
                                                     </div>
+                                                    <input type="hidden" name="form_id" id="form_id" value="955594">
+                                                    <input type="hidden" name="hash" value="f0fd6d8e7778472081d3a3bddd5e565b">
+                                                    <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Fri Jun 24 2022 16:23:39 GMT+0600 (East Kazakhstan Time)&quot;,&quot;referer&quot;:&quot;&quot;}">
+                                                    <input id="visitor_uid" type="hidden" name="visitor_uid" value="a3f410ce-8100-41fa-87bd-4fa19d308072">
                                                 </div>
                                                 <div class="modal-footer" style="padding-left:35px;padding-right:35px;">
-                                                    <button type="submit" class="btn btn-primary form-control btn-lg">Отправить</button>
+                                                    <button type="submit" onclick="window.location.href = 'https://skylearnkz.github.io/success';" class="btn btn-primary form-control btn-lg">Отправить</button>
                                                 </div>
                                             </form>
                                         </div>
@@ -986,5 +989,15 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"955594",hash:"f0fd6d8e7778472081d3a3bddd5e565b",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_955594" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1656066060"></script>
+        <script>
+            !function (w, d, t) {
+              w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+            
+              ttq.load('CASTUJ3C77U7LBBSNS80');
+              ttq.page();
+              ttq.track ('ViewContent')
+            }(window, document, 'ttq');
+            </script>
     </body>
 </html>
