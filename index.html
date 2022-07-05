@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
+        <meta name="description" content=""/>
         <meta name="author" content="" />
-        <title>Business Frontpage - Start Bootstrap Template</title>
         <!-- Favicon-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            header {
+                background-image: url("https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/header.png?raw=true");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: top;
+            }
+            .feature {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                height: 4rem;
+                width: 4rem;
+                font-size: 2rem;
+            }
+        </style>
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container px-5">
-                <a class="navbar-brand" href="#!"><img width="150px" src="assets/img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="#!"><img width="150px" src="https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/logo.png?raw=true" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="btn btn-outline-light" aria-current="page" href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать звонок</a></li>
+                        <li class="nav-item"><button class="btn btn-outline-light" aria-current="page" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать звонок</button></li>
                     </ul>
                 </div>
             </div>
@@ -36,7 +53,7 @@
                             <hr>
                             <p class="lead text-white-50 mb-4">И поможем получить работу в <b style="border-bottom:1px solid #7FB7FE;">IT-компании</b>!</p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center mb-5">
-                                <a class="btn btn-light form-control btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#!"><b>Записаться</b></a>
+                                <button class="btn btn-light form-control btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal"><b>Записаться</b></button>
                                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content pb-3">
@@ -70,13 +87,13 @@
                                 <div class="col-md-6">
                                     <div class="sillicon">
                                         <span class="lead text-white-50" style="font-size:15px;">Наши студенты работают в FAANG</span>
-                                        <img src="assets/img/banner.png" style="width:80%;margin-top:5px;margin-bottom:30px;" alt="">
+                                        <img src="https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/banner.png?raw=true" style="width:80%;margin-top:5px;margin-bottom:30px;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6" style="text-align:center;">
                                     <div class="sillicon">
                                         <span class="lead text-white-50" style="font-size:15px;">Наш ментор работает в Microsoft</span>
-                                        <img src="assets/img/ms.png" style="width:50%;margin-top:15px;" alt="">
+                                        <img src="https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/ms.png?raw=true" style="width:50%;margin-top:15px;" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -91,17 +108,17 @@
                 <div class="row gx-5 text-center">
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                        <h2 class="h4 fw-bolder">С чего начать ❓</h2>
+                        <h2 class="h4 fw-bolder">С чего начать</h2>
                         <p>Хотите узнать с чего начать и какой выбрать язык программирования для вашего старта</p>
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                        <h2 class="h4 fw-bolder">Ищу работу 💼</h2>
+                        <h2 class="h4 fw-bolder">Ищу работу</h2>
                         <p>Хотите найти работу в IT и стать крутым специалистом в этой сфере</p>
                     </div>
                     <div class="col-lg-4">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-cash"></i></div>
-                        <h2 class="h4 fw-bolder">Хочу зарабатывать 💰</h2>
+                        <h2 class="h4 fw-bolder">Хочу зарабатывать</h2>
                         <p>Хотите работать удаленно и зарабатывать от 300'000 тенге в месяц</p>
                     </div>
                 </div>
@@ -121,10 +138,11 @@
                             <div class="card-body p-5">
                                 <div class="small text-uppercase fw-bold text-muted">1 Месяц</div>
                                 <div class="mb-3">
-                                    <span class="display-6 fw-bold">Web Start 🌎</span>
-                                    <span style="display:block;" class="text-muted">Основы вёрстки</span>
+                                    <span class="display-6 fw-bold">Web Start</span>
+                                    <span style="display:block;" class="text-muted"><i class="bi bi-brush"></i> Основы вёрстки</span>
+                                    <button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#webstart" aria-expanded="false">Узнать больше</button>
                                 </div>
-                                <ul class="list-unstyled mb-4">
+                                <ul id="webstart" class="list-unstyled mb-4 collapse">
                                     <li class="mb-2">
                                         <i class="bi bi-check text-primary"></i>
                                         <b>[HTML]</b> Элементы и аттрибуты
@@ -157,10 +175,11 @@
                                     6 Месяцев | 10% скидка
                                 </div>
                                 <div class="mb-3">
-                                    <span class="display-6 fw-bold">Web Pro 💻</span>
-                                    <span style="display:block;" class="text-muted">Профессия JavaScript-разработчик</span>
+                                    <span class="display-6 fw-bold">Web Pro</span>
+                                    <span style="display:block;" class="text-muted"><i class="bi bi-bounding-box"></i> Профессия JavaScript-разработчик</span>
+                                    <button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#webpro" aria-expanded="false">Узнать больше</button>
                                 </div>
-                                <ul class="list-unstyled mb-4">
+                                <ul id="webpro" class="list-unstyled mb-4 collapse">
                                     <li class="mb-2">
                                         <i class="bi bi-check text-primary"></i>
                                         <b>1 месяц</b> - Web Start модуль
@@ -194,10 +213,11 @@
                             <div class="card-body p-5">
                                 <div class="small text-uppercase fw-bold text-muted">1 месяц</div>
                                 <div class="mb-3">
-                                    <span class="display-6 fw-bold">Python Start 🐍</span>
-                                    <span style="display:block;" class="text-muted">Основы кодинга на Python</span>
+                                    <span class="display-6 fw-bold">Python Start</span>
+                                    <span style="display:block;" class="text-muted"><i class="bi bi-code-slash"></i> Основы кодинга на Python</span>
+                                    <button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#pythonstart" aria-expanded="false">Узнать больше</button>
                                 </div>
-                                <ul class="list-unstyled mb-4">
+                                <ul id="pythonstart" class="list-unstyled mb-4 collapse">
                                     <li class="mb-2">
                                         <i class="bi bi-check text-primary"></i>
                                         Введение в написание программ
@@ -234,10 +254,11 @@
                                     6 Месяцев | 10% скидка
                                 </div>
                                 <div class="mb-3">
-                                    <span class="display-6 fw-bold">Python Pro 🎯</span>
-                                    <span style="display:block;" class="text-muted">Профессия Python-разработчик</span>
+                                    <span class="display-6 fw-bold">Python Pro</span>
+                                    <span style="display:block;" class="text-muted"><i class="bi bi-cpu"></i> Профессия Python-разработчик</span>
+                                    <button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#pythonpro" aria-expanded="false">Узнать больше</button>
                                 </div>
-                                <ul class="list-unstyled mb-4">
+                                <ul id="pythonpro" class="list-unstyled mb-4 collapse">
                                     <li class="mb-2">
                                         <i class="bi bi-check text-primary"></i>
                                         <b>1 месяц</b> - Python Start модуль
@@ -271,10 +292,11 @@
                             <div class="card-body p-5">
                                 <div class="small text-uppercase fw-bold text-muted">1 месяц</div>
                                 <div class="mb-3">
-                                    <span class="display-6 fw-bold">Java Start ☕️</span>
-                                    <span style="display:block;" class="text-muted">Основы кодинга на Java</span>
+                                    <span class="display-6 fw-bold">Java Start</span>
+                                    <span style="display:block;" class="text-muted"><i class="bi bi-code-slash"></i> Основы кодинга на Java</span>
+                                    <button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#javastart" aria-expanded="false">Узнать больше</button>
                                 </div>
-                                <ul class="list-unstyled mb-4">
+                                <ul id="javastart" class="list-unstyled mb-4 collapse">
                                     <li class="mb-2">
                                         <i class="bi bi-check text-primary"></i>
                                         Введение в написание программ
@@ -311,10 +333,11 @@
                                     6 месяцев | 10% скидка
                                 </div>
                                 <div class="mb-3">
-                                    <span class="display-6 fw-bold">Java Pro 🏆</span>
-                                    <span style="display:block;" class="text-muted">Профессия Java-разработчик</span>
+                                    <span class="display-6 fw-bold">Java Pro</span>
+                                    <span style="display:block;" class="text-muted"><i class="bi bi-cpu"></i> Профессия Java-разработчик</span>
+                                    <button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#javapro" aria-expanded="false">Узнать больше</button>
                                 </div>
-                                <ul class="list-unstyled mb-4">
+                                <ul id="javapro" class="list-unstyled mb-4 collapse">
                                     <li class="mb-2">
                                         <i class="bi bi-check text-primary"></i>
                                         <b>1 месяц</b> - Java Start модуль
@@ -351,13 +374,9 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6 mb-3">
                         <span class="display-5 fw-bold">Запишитесь на пробный онлайн-урок <i class="bi bi-check2-circle"></i></span>
-                        <ul style="margin-top:25px;">
-                            <li>Самые последние и свежие знания от наших партнеров 📚</li>
-                            <li>Домашние задания, регулярные тесты на проверку знаний 👩‍🏫</li>
-                            <li>Финальный проект, который пойдет в ваше резюме 💻</li>
-                            <li>Персональный менеджер, с поддержкой 24/7 👋🏻</li>
-                            <li>Еженедельная консультация ментора из Microsoft 📈</li>
-                        </ul>
+                        <div style="margin-top:25px;">
+                            Консультация с ментором из Microsoft каждую субботу в 11:00
+                        </div>
                     </div>
                     <div class="col-lg-6">
                         <form class="card p-5 bg-light text-dark" id="contactForm" data-sb-form-api-token="API_TOKEN">
@@ -560,23 +579,23 @@
                 </div>
                 <div class="row pt-5">
                     <div class="col-lg-5 mb-4">
-                        <img src="assets/img/microsoft.png" width="25%" alt="">
+                        <img src="https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/microsoft.png?raw=true" width="25%" alt="">
                         <h1 class="display-4 fw-bold text-primary">Алмас Заурбеков</h1>
                         <p class="fw-bold text-muted mt-2">Основатель онлайн-школы</p>
-                        <p class="fw-bold" style="font-size:20px;">💼 Ведущий разработчик в компании <span class="badge bg-primary">Microsoft</span></p>
+                        <p class="fw-bold" style="font-size:20px;"><i class="bi bi-bookmark-star-fill text-primary"></i> Ведущий разработчик в компании <span class="text-decoration-underline">Microsoft</span></p>
                         <hr>
-                        <p class="fw-bold" style="font-size:20px;">✅ Сертифицированный специалист в <span class="badge bg-primary">MS D365</span></p>
+                        <p class="fw-bold" style="font-size:20px;"><i class="bi bi-bookmark-star-fill text-primary"></i> Сертифицированный специалист в <span class="text-decoration-underline">MS D365</span></p>
                         <hr>
-                        <p class="fw-bold" style="font-size:20px;">⚒ Архитектор облачных решений на <span class="badge bg-primary">Azure</span></p>
+                        <p class="fw-bold" style="font-size:20px;"><i class="bi bi-bookmark-check-fill text-primary"></i> Архитектор облачных решений на <span class="text-decoration-underline">Azure</span></p>
                         <hr>
-                        <p class="fw-bold" style="font-size:20px;">🏛 Обучение Computer Science в <span class="badge bg-primary">Harvard</span></p>
+                        <p class="fw-bold" style="font-size:20px;"><i class="bi bi-bookmark-check-fill text-primary"></i> Обучился Computer Science в <span class="text-decoration-underline">Harvard</span></p>
                         <hr>
-                        <p class="fw-bold" style="font-size:20px;">📈 Опыт работы в IT-компаниях: <span class="badge bg-primary">5+ лет</span></p>
-                        <a href="" class="btn btn-primary fw-bold form-control mt-4">Задать вопрос Алмасу</a>
+                        <p class="fw-bold" style="font-size:20px;"><i class="bi bi-bookmark-check-fill text-primary"></i> Опыт работы в IT-компаниях: <span class="text-decoration-underline">5+ лет</span></p>
+                        <button class="btn btn-primary fw-bold form-control mt-4">Задать вопрос Алмасу</button>
                     </div>
                     <div class="col-lg-1"></div>
                     <div class="col-lg-6">
-                        <img src="assets/img/almas.jpg" width="100%" alt="">
+                        <img src="https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/almas.jpg?raw=true" width="100%" alt="">
                     </div>
                 </div>
                 <div class="row pt-5">
@@ -637,18 +656,14 @@
                 </div>
             </div>
         </section>
-        <section class="py-5 border-bottom bg-primary text-light" style="background-image: url(assets/img/header.png); background-size: cover; background-position:top">
+        <section class="py-5 border-bottom bg-primary text-light" style="background-image: url(https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/header.png?raw=true); background-size: cover; background-position:top">
             <div class="container px-5 my-5 px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6 mb-3">
                         <span class="display-5 fw-bold">Запишитесь на пробный онлайн-урок <i class="bi bi-check2-circle"></i></span>
-                        <ul style="margin-top:25px;">
-                            <li>Самые последние и свежие знания от наших партнеров 📚</li>
-                            <li>Домашние задания, регулярные тесты на проверку знаний 👩‍🏫</li>
-                            <li>Финальный проект, который пойдет в ваше резюме 💻</li>
-                            <li>Персональный менеджер, с поддержкой 24/7 👋🏻</li>
-                            <li>Еженедельная консультация ментора из Microsoft 📈</li>
-                        </ul>
+                        <div style="margin-top:25px;">
+                            Консультация с ментором из Microsoft каждую субботу в 11:00
+                        </div>
                     </div>
                     <div class="col-lg-6">
                         <form class="card p-5 bg-light text-dark" id="contactForm" data-sb-form-api-token="API_TOKEN">
@@ -676,19 +691,19 @@
             <div class="container px-5">
                 <div class="row">
                     <div class="col-md-4">
-                        <a class="navbar-brand" href="#!"><img width="150px" style="margin-top:-30px;" src="assets/img/logo.png" alt=""></a>
+                        <a class="navbar-brand" href="#!"><img width="150px" style="margin-top:-30px;" src="https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/logo.png?raw=true" alt=""></a>
                     </div>
                     <div class="col-md-4 text-light mb-4">
                         <p class="fw-bold">Информация о SkyLearn</p>
                         <p style="margin:0;">ИП "IP AZAURBEKOV"</p>
                         <p style="margin:0;">БИН: 990822300836</p>
-                        <a href="#" class="text-light" type="button" data-bs-toggle="modal" data-bs-target=".offert-modal-lg">Договор оферты</a>
+                        <a href="#" class="text-light text-decoration-underline" type="button" data-bs-toggle="modal" data-bs-target=".offert-modal-lg">Договор оферты</a>
                     </div>
                     <div class="col-md-4 text-light">
                         <p class="fw-bold">Контакты</p>
                         <p style="margin:0;">г. Алматы, Орбита 3, д. 20, офис 40</p>
                         <p style="margin:0;">skylearn.kz@gmail.com</p>
-                        <a class="text-light" href="#politics" type="button" data-bs-toggle="modal" data-bs-target=".confi-modal-lg">Политика конфиденциальности</a>
+                        <a class="text-light text-decoration-underline" href="#politics" type="button" data-bs-toggle="modal" data-bs-target=".confi-modal-lg">Политика конфиденциальности</a>
                     </div>
                 </div>
             </div>
@@ -989,7 +1004,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"955594",hash:"f0fd6d8e7778472081d3a3bddd5e565b",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_955594" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1656066060"></script>
         <script>
             !function (w, d, t) {
               w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
@@ -998,6 +1012,25 @@
               ttq.page();
               ttq.track ('ViewContent')
             }(window, document, 'ttq');
-            </script>
+        </script>
+        <script>
+            function onReady(callback) {
+                var intervalId = window.setInterval(function() {
+                    if (document.getElementsByTagName('body')[0] !== undefined) {
+                    window.clearInterval(intervalId);
+                    callback.call(this);
+                    }
+                }, 1000);
+                }
+
+                function setVisible(selector, visible) {
+                document.querySelector(selector).style.display = visible ? 'block' : 'none';
+                }
+
+                onReady(function() {
+                setVisible('.page', true);
+                setVisible('#loading', false);
+            });
+        </script>
     </body>
 </html>
