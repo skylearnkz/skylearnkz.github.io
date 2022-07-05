@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
+        <meta name="description" content=""/>
         <meta name="author" content="" />
-        <title>Business Frontpage - Start Bootstrap Template</title>
         <!-- Favicon-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            header {
+                background-image: url("https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/header.png?raw=true");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: top;
+            }
+            .feature {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                height: 4rem;
+                width: 4rem;
+                font-size: 2rem;
+            }
+        </style>
     </head>
     <body class="bg-primary">
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container px-5">
-                <a class="navbar-brand" href="#!"><img width="150px" src="assets/img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="#!"><img width="150px" src="https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/logo.png?raw=true" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -27,7 +44,7 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="py-5 bg-primary" style="background-image: url(assets/img/register.png);background-position:center;">
+        <header class="py-5 bg-primary" style="background-image: url(https://github.com/skylearnkz/skylearnkz.github.io/blob/main/assets/img/register.png?raw=true);background-position:center;">
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center text-center">
                     <div class="col-lg-6 mb-5">
@@ -69,8 +86,28 @@
               w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
             
               ttq.load('CASTUJ3C77U7LBBSNS80');
-              ttq.track ('Complete Registration')
+              ttq.page();
+              ttq.track ('ViewContent')
             }(window, document, 'ttq');
-            </script>
+        </script>
+        <script>
+            function onReady(callback) {
+                var intervalId = window.setInterval(function() {
+                    if (document.getElementsByTagName('body')[0] !== undefined) {
+                    window.clearInterval(intervalId);
+                    callback.call(this);
+                    }
+                }, 1000);
+                }
+
+                function setVisible(selector, visible) {
+                document.querySelector(selector).style.display = visible ? 'block' : 'none';
+                }
+
+                onReady(function() {
+                setVisible('.page', true);
+                setVisible('#loading', false);
+            });
+        </script>
     </body>
 </html>
